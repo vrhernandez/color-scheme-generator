@@ -1,10 +1,48 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Color Scheme Generator</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <form id="scheme-form">
+            <input type="color" id="color-picker">
+            <select name="mode-selector" id="mode-selector">
+                <option value="mono" selected>Select mode:</option>
+                <option value="mono">Monochrome</option>
+                <option value="mono-dark">Monochrome-dark</option>
+                <option value="mono-lite">Monochrome-light</option>
+                <option value="analog">Analogic</option>
+                <option value="comp">Complement</option>
+                <option value="an-comp">Analogic-Complement</option>
+                <option value="tri">Triad</option>
+            </select>
+            <button id="submit-btn">Get color scheme</button>
+        </form>
+        <div class="color-results">
+            <div id="color-one" class="color-bar">
+            </div>
+            <div id="color-two" class="color-bar">
+            </div>
+            <div id="color-three" class="color-bar">
+            </div>
+            <div id="color-four" class="color-bar">
+            </div>
+            <div id="color-five" class="color-bar">
+            </div>
+        </div>
+        <div id="hex-footer">
+            <p id="hex-one">#000000</p>
+            <p id="hex-two">#000000</p>
+            <p id="hex-three">#000000</p>
+            <p id="hex-four">#000000</p>
+            <p id="hex-five">#000000</p>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>
