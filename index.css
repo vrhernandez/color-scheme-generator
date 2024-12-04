@@ -55,24 +55,26 @@ html, body {
     justify-content: end;
 }
 
-#color-one {
-    background-color: blue;
+#color-0 {
+    background-color: #03487C
+
+    ;
 }
 
-#color-two {
-    background-color: green;
+#color-1 {
+    background-color: #0465AF;
 }
 
-#color-three {
-    background-color: yellow;
+#color-2 {
+    background-color: #0382E2;
 }
 
-#color-four {
-    background-color: orange;
+#color-3 {
+    background-color: #1C9CFD;
 }
 
-#color-five {
-    background-color: red;
+#color-4 {
+    background-color: #4DB2FE;
 }
 
 #hex-footer {
